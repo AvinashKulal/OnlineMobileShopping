@@ -1,0 +1,171 @@
+
+::placeholder{
+color:blue;
+}
+header{
+height:100px;
+background-color:black;
+}
+header>h1{
+
+color:white;
+padding-top:10px;
+text-align:center;
+}
+section{
+border:1px solid blue;
+background-color:steelblue;
+margin:5px;
+
+color:white;
+width:50%;
+text-decoration:underline;
+padding-left:10px;
+padding-bottom:10px;
+
+}
+input[class="button"]{
+background-color:red;
+color:white;
+border:2px solid white;
+width:40%;
+
+transform:translate(50%,0);
+}
+input ,textarea{
+border-radius:5px;
+width:75%;
+height:40px;
+margin:10px;
+padding:10px;
+}
+aside{
+position:absolute;
+left:50%;
+float:right;
+margin:30px;
+border:2px solid black;
+}
+
+
+
+
+
+.show-container{
+	margin:10px 10px 10px 10px;
+	display:grid;
+	grid-template-columns:30% 70%;
+	grid-column-gap:10px;
+	grid-row-gap:10px;
+}
+.mobile-img img{
+	
+	line-height:100%;
+	width:100%;
+}
+.show-container>div{
+	border:2px solid black;
+}
+input ,textarea,select{
+border-radius:5px;
+width:75%;
+height:40px;
+margin:10px;
+padding:10px;
+}
+
+.checked{
+	
+	color:orange;
+}
+
+
+.outer-container{
+	display:grid;
+	grid-template-columns:70% 30%;
+
+	
+	
+}
+.main-container{
+	margin:10px 10px 10px 10px;
+	display:grid;
+	grid-template-columns:30% 30% 30%;
+	grid-column-gap:10px;
+	grid-row-gap:10px;
+	align-items: center;
+}
+.grid-item{
+	
+	padding:5px;
+	border:2px solid blue;
+	
+}
+.grid-item img{
+	height:200px; 
+	
+}
+.sidepanel img{
+width:100%;
+height:100%;
+	
+}
+
+table{
+	margin:5px;
+	border:2px solid black;
+	width:100%;
+	border-color:black;
+	
+	
+}
+th{
+	height:40px;
+	color:white;
+	background-color:green;
+}
+td{
+	
+	height:30px;
+	text-align:center;
+}
+button{
+	background-color:blue;
+	color:white;
+	padding:5px;
+	width:100%;
+}
+a{
+	text-decoration:none;
+	color:white;
+	font-size:20px;
+	font-family:san-serif;
+}
+.booking-container{
+
+background-color:rgba(100,50,255,0.4);
+margin:10px;
+display:grid;
+gap:10px 10px;
+grid-template-columns:30% 30% 30%;	
+padding:5px;
+border:2px solid blue;
+
+}
+
+span{
+	color:green;
+	font-family:verdana;
+}
+.verdana{
+	
+	font-family:verdana;
+	color:#1500ff;
+}
+
+
+
+
+
+
+
